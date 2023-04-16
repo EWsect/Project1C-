@@ -127,32 +127,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\ApiConfig.h" />
-    <ClInclude Include="include\ApiData.h" />
-    <ClInclude Include="include\ApiRequest.h" />
-    <ClInclude Include="include\ApiResponse.h" />
-    <ClInclude Include="include\ApiTest.h" />
-    <ClInclude Include="src\MainWindow.h" />
+    <Image Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="lib\libcurl.a" />
-    <Library Include="lib\libcurl.lib" />
+    <ClCompile Include="ApiConfig.cpp" />
+    <ClCompile Include="ApiData.cpp" />
+    <ClCompile Include="ApiRequest.cpp" />
+    <ClCompile Include="ApiResponse.cpp" />
+    <ClCompile Include="ApiTest.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="lib\libcurl.dll" />
-    <None Include="src\MainWindow.ui" />
+    <ClInclude Include="ApiConfig.h" />
+    <ClInclude Include="ApiData.h" />
+    <ClInclude Include="ApiRequest.h" />
+    <ClInclude Include="ApiResponse.h" />
+    <ClInclude Include="ApiTest.h" />
+    <ClInclude Include="MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\icon.ico" />
+    <Library Include="libcurl.a" />
+    <Library Include="libcurl.lib" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ApiConfig.cpp" />
-    <ClCompile Include="src\ApiData.cpp" />
-    <ClCompile Include="src\ApiRequest.cpp" />
-    <ClCompile Include="src\ApiResponse.cpp" />
-    <ClCompile Include="src\ApiTest.cpp" />
-    <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\MainWindow.cpp" />
+    <None Include="libcurl.dll" />
+    <None Include="MainWindow.ui" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

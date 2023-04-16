@@ -18,67 +18,59 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\ApiConfig.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ApiData.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ApiRequest.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ApiResponse.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ApiTest.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="src\MainWindow.h">
-      <Filter>src</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="lib\libcurl.a">
-      <Filter>lib</Filter>
-    </Library>
-    <Library Include="lib\libcurl.lib">
-      <Filter>lib</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\icon.ico">
+    <Image Include="icon.ico">
       <Filter>res</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="lib\libcurl.dll">
-      <Filter>lib</Filter>
-    </None>
-    <None Include="src\MainWindow.ui">
+    <ClCompile Include="ApiConfig.cpp">
       <Filter>src</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="ApiData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiRequest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiResponse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ApiConfig.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ApiData.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ApiRequest.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ApiResponse.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ApiTest.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\MainWindow.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
+    <ClInclude Include="ApiConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiRequest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiResponse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.a" />
+    <Library Include="libcurl.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libcurl.dll" />
+    <None Include="MainWindow.ui" />
   </ItemGroup>
 </Project>
